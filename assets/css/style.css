@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
 :root {
     font-size: 62.5%; /* se 100% é = a 16, quanto é a porcentagem para 10: "(10 * 100) / 16"  1rem é = 10px */
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.6rem; /* é igual a 16px */
 }
 .app {
@@ -21,12 +22,14 @@ body {
 }
 
 .cabecalho {
-    background: tomato;
+    background: gainsboro;
+    color: rgb(80, 43, 95);
+    font-family: 'Ubuntu', sans-serif;
     grid-area: cabecalho; /* Identifica as areas do layout. */ 
 }
  
 .conteudo {
-    background: violet;
+    
     grid-area: conteudo;
 
 }
