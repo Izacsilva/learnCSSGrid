@@ -1,0 +1,15 @@
+
+.menu__link {
+    padding: .8rem 1.6rem;
+    color: #3c3c3c;
+    transition: color 0.3s
+}
+
+.menu__link:hover, .menu__link.ativo {
+    
+    border-bottom: solid .3rem #0073ef;
+}
+
+.menu__link:hover {
+    color: #0073ef;
+}

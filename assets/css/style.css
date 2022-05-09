@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     font-size: 62.5%; /* se 100% é = a 16, quanto é a porcentagem para 10: "(10 * 100) / 16"  1rem é = 10px */
 }
@@ -18,22 +23,31 @@ body {
         "rodape"
     ;
     grid-template-columns: auto;
-    grid-template-rows: 5rem calc(100vh - 5rem) 1.6rem;
+    grid-template-rows: 5rem auto auto;
 }
 
 .cabecalho {
+    align-items: center;
     background: gainsboro;
     color: rgb(80, 43, 95);
+    display: flex;
     font-family: 'Ubuntu', sans-serif;
     grid-area: cabecalho; /* Identifica as areas do layout. */ 
+    padding: 0 3.2rem;
+    
 }
  
 .conteudo {
     grid-area: conteudo;
+    padding: 0 3.2rem;
 
 }
 
 .rodape {
-    background: goldenrod;
+    background: #fdfdfd;
+
     grid-area: rodape;
+    padding: 1.6rem 3.2rem;
+    text-align: center;
+    margin-block: auto;
 }
