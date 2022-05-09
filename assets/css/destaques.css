@@ -71,7 +71,7 @@
 
 .destaques__categorias___item {
     align-items: center;
-    border: solid 2px rgb(196, 196, 196);
+    /* border: solid 2px rgb(196, 196, 196); */
     display: flex;
     margin-left: 0.4rem;
     padding: 1.6rem;
