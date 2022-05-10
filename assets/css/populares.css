@@ -8,6 +8,7 @@
     justify-content: space-between;
     padding: 1rem;
     font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 1.6rem;
 }
 
 .populares__titulo {
@@ -29,7 +30,6 @@
     display: flex;
     flex-wrap: wrap;
     grid-area: conteudo;
-    padding: 1.6rem 0;
 }
 
 .populares__card {
@@ -40,10 +40,6 @@
         "card-corpo"
     ;
     grid-template-columns: 100%;
-    grid-template-rows: 17.3rem auto;
-    margin-right: 1.6rem;
-    
-    width: calc(20% - 1.6rem);
 }
 
 
